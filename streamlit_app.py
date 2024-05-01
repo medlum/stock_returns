@@ -47,5 +47,5 @@ if len(selected_symbols) > 1:
         orient='bottom',
         direction='vertical',
         # offset=-380,
-    )
+    ).interactive()
     st.altair_chart(line)
