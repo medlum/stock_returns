@@ -40,8 +40,8 @@ if len(selected_symbols) > 1:
         x='Date',
         y='Total Relative Return (%)',
         color='Counter').properties(
-        width=600,
-        height=400
+        width=500,
+        height=300
     ).configure_legend(
         orient='bottom',
         direction='vertical',
