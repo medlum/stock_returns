@@ -44,7 +44,7 @@ if len(selected_symbols) > 1:
         height=400
     ).configure_legend(
         orient='bottom',
-        # direction='vertical',
+        direction='vertical',
         # offset=-380,
     )
     st.altair_chart(line)
