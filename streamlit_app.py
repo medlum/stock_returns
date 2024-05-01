@@ -14,6 +14,7 @@ st.header('Total Relative Return')
 st.write(description)
 
 stock_df = pd.read_csv('resources/sg_stocks_list.csv')
+stock_df = stock_df.sort_values(by=['Name'])
 # stock_df.index = stock_df['Symbol']
 stock_name = stock_df['Name']
 
