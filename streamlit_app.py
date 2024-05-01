@@ -40,7 +40,7 @@ if len(selected_symbols) > 1:
         x='Date',
         y='Total Relative Return (%)',
         color='Counter').properties(
-        width=800,
-        height=500
+        width=500,
+        height=250
     ).interactive()
     st.altair_chart(line)
